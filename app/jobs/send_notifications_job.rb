@@ -1,5 +1,5 @@
 class SendNotificationsJob < ApplicationJob
-  self.queue_adapter = :resque
+  # self.queue_adapter = :resque
 
   queue_as :default
 
